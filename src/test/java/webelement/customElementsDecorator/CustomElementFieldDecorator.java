@@ -24,8 +24,6 @@ import java.util.List;
  * Good sources:
  * http://www.alechenninger.com/2014/07/a-case-study-of-javas-dynamic-proxies_14.html
  * http://www.mograblog.com/2013/08/extending-selenium-in-java.html
- * http://www.programcreek.com/java-api-examples/index.php?source_dir=kune-master/src/test/java/cc/kune/selenium/PageObjectModule.java#
- * http://stackoverflow.com/questions/6946189/how-can-i-create-a-dynamic-proxy-in-java-that-retains-parameter-annotations-on-m
  */
 
 /*

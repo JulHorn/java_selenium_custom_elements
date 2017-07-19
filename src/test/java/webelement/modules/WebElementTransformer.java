@@ -45,7 +45,7 @@ public class WebElementTransformer {
             return By.tagName(findBy.tagName());
         }
 
-        throw new IllegalArgumentException("Findby could not be mapped to By: " + findBy.toString());
+        throw new IllegalArgumentException("FindBy could not be mapped to By: " + findBy.toString());
     }
 
     /**
@@ -84,7 +84,7 @@ public class WebElementTransformer {
      * @return The value of the locator.
      **/
     public String getLocatorValue(By locator, LocatorType type) {
-        Field locatorField = null;
+        Field locatorField;
 
         // Get the proper field
         try {
