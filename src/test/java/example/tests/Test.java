@@ -12,7 +12,7 @@ import webelement.customElementsDecorator.CustomElementFieldDecorator;
 import java.util.concurrent.TimeUnit;
 
 /**
- * A simple example of how to use the custom elements in a test.
+ * A simple example on how to use the custom elements in a test.
  **/
 public class Test {
 

@@ -15,8 +15,8 @@ public class WebRadioboxGroup extends CustomWebElement {
     /**
      * Constructor. Initializes the webelement.exampleElements.
      *
-     * @param webdDiver The webdDiver to interact with the webbrowser.
-     * @param by        The locator used to identify the element(s) on the webpage.
+     * @param webdDiver The webdDiver usd to interact with the webbrowser.
+     * @param by        The locator used to identify the element(s) on the website.
      **/
     public WebRadioboxGroup(WebDriver webdDiver, By by) {
         super(webdDiver, by);

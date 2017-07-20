@@ -16,7 +16,7 @@ public class BingResultListModule extends CustomWebElement {
      * Constructor.
      *
      * @param webDriver The webDriver to interact with the browser.
-     * @param by        The locator used to identify the element(s) on the webpage.
+     * @param by        The locator used to identify the element(s) on the website.
      **/
     public BingResultListModule(WebDriver webDriver, By by) {
         super(webDriver, by);

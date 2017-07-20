@@ -12,8 +12,8 @@ public class WebButton extends CustomWebElement {
     /**
      * Constructor.
      *
-     * @param webDriver The webdriver to interact with the webbrowser.
-     * @param by        The locator used to identify the element(s) on the webpage.
+     * @param webDriver The webdriver usd to interact with the webbrowser.
+     * @param by        The locator used to identify the element(s) on the website.
      **/
     public WebButton(WebDriver webDriver, By by) {
         super(webDriver, by);

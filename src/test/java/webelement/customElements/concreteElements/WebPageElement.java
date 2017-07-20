@@ -12,8 +12,8 @@ public class WebPageElement extends CustomWebElement {
     /**
      * Constructor.
      *
-     * @param webDriver The webDriver to interact with the webbrowser.
-     * @param by        The locator used to identify the element(s) on the webpage.
+     * @param webDriver The webDriver usd to interact with the webbrowser.
+     * @param by        The locator used to identify the element(s) on the website.
      **/
     public WebPageElement(WebDriver webDriver, By by) {
         super(webDriver, by);

@@ -27,8 +27,8 @@ public class BingSearchModule extends CustomWebElement {
     /**
      * Constructor.
      *
-     * @param webDriver The webDriver to interact with the webbrowser.
-     * @param by        The locator used to identify the element(s) on the webpage.
+     * @param webDriver The webDriver used to interact with the webbrowser.
+     * @param by        The locator used to identify the element(s) on the website.
      **/
     public BingSearchModule(WebDriver webDriver, By by) {
         super(webDriver, by);

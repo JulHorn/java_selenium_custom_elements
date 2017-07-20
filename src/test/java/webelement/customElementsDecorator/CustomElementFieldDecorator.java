@@ -31,7 +31,7 @@ import java.util.List;
  * The page factory runs through all fields of a class an calls the "decorate()" method of the "FieldDecorator" interface.
  * The "decorate()" method has to return an object which has the correct type.
  * 
- * For that it needs the locator of the field so that the webelement can be identified on the webpage.
+ * For that it needs the locator of the field so that the webelement can be identified on the website.
  * 
  * It should work like this:
  * 
@@ -39,7 +39,7 @@ import java.util.List;
  * 		choice 1: decorate for a default webelement: DefaultFieldDecorator is used for default behavior
  * 		choice 2: decorate has create proper custom webelement -> getLocator() to be able do get the webelement
  * 			-> getEnhancedObject() to add callback method to lazy initialize and configure the custom webelement
- * 			-> getElementHandler() which implements the callback method to add callback method to lazy initialize and configure the custom webelement.
+ * 			-> getElementHandler(), which implements the callback method to add callback method to lazy initialize and configure the custom webelement.
  * */
 
 /**
@@ -124,8 +124,8 @@ public class CustomElementFieldDecorator implements FieldDecorator {
      * clicked -> Since the class might be a custom webelement, the callback method is called to handle the
      * initialisation of the custom webelement.
      *
-     * @param clzz              The class which should be enhanced with the callback method (e.g. a custom button). If a method an
-     *                          that class is called the callback method will be triggered.
+     * @param clzz              The class which should be enhanced with the callback method (e.g. a custom button). If a method in
+     *                          that class is called, the callback method will be triggered.
      * @param methodInterceptor The class which implements the callback method.
      * @param locator           The locator which was used to identify the webelement via the FindBy annotation.
      **/
